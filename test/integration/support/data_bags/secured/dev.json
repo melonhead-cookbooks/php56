@@ -1,0 +1,9 @@
+{
+  "php56": {
+    "encrypted_data": "x2SNboTDHrT+w74JE1aKFCuwVJzKeRovvf//Ft/zoZIeEYtmkPpdZER55E4m\nf5iIt9C9DtQ9Uw91wjLeLrHQza3XqHDd5TvJTsR1eQqoqF/OuL6f8KqDVNKm\nCFZ4hYIOrc8WenW2sp8Q+obTkT2MFq+U26d61x/LLeVp+5LOv5E78fLHjQbl\nHN4gBlb+VNhwVkxQEIBEqboOOT+ml4UvgkfIt/yvqGiDuvqu9S3TfpElKU76\n7DMqJJUb7iCigvTEE0aY47Ul0OQocOM0anj6U7v5BKOqIr583puIJQTqKnHl\n0drpumJ/Lp36yUkJXuo4zGtnTC8jPqEDMrIUQ/vtjjDTfnQl2DKbRyyLZSm7\ncgc=\n",
+    "iv": "LcD5qmnXq9smNkZMW0AtoQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "id": "dev"
+}

@@ -1,0 +1,31 @@
+I, [2014-10-18T02:57:42.251709 #67867]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-10-18T02:57:42.251998 #67867] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-18T02:57:42.252026 #67867] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-10-18T02:57:42.252058 #67867] ERROR -- Kitchen: Message: Kitchen YAML file /Users/wcastillo/work/chef/cookbooks/cookbook_template/test/integration/.kitchen.yml does not exist.
+E, [2014-10-18T02:57:42.252079 #67867] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-18T02:57:42.252100 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2014-10-18T02:57:42.252120 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:78:in `data'
+E, [2014-10-18T02:57:42.252140 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:66:in `suites'
+E, [2014-10-18T02:57:42.252178 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-10-18T02:57:42.252199 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-10-18T02:57:42.252219 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-10-18T02:57:42.252251 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-10-18T02:57:42.252272 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-10-18T02:57:42.252292 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/command/test.rb:42:in `block in call'
+E, [2014-10-18T02:57:42.252311 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-10-18T02:57:42.252330 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/command/test.rb:40:in `call'
+E, [2014-10-18T02:57:42.252349 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-10-18T02:57:42.252369 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:153:in `test'
+E, [2014-10-18T02:57:42.252388 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-10-18T02:57:42.252407 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-10-18T02:57:42.252429 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-10-18T02:57:42.252448 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-10-18T02:57:42.252468 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-10-18T02:57:42.252488 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-10-18T02:57:42.252507 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-10-18T02:57:42.252526 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/gems/test-kitchen-1.2.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-10-18T02:57:42.252545 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/bin/kitchen:23:in `load'
+E, [2014-10-18T02:57:42.252565 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/bin/kitchen:23:in `<main>'
+E, [2014-10-18T02:57:42.252591 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+E, [2014-10-18T02:57:42.252615 #67867] ERROR -- Kitchen: /Users/wcastillo/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+E, [2014-10-18T02:57:42.252635 #67867] ERROR -- Kitchen: ----------------------

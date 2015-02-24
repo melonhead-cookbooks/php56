@@ -1,0 +1,7 @@
+DEPENDENCIES
+  cookbook_template
+    path: .
+    metadata: true
+
+GRAPH
+  cookbook_template (0.1.0)
